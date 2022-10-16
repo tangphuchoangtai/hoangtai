@@ -24,5 +24,13 @@ namespace htai
             double c = a + b;
             tbKQ.Text = c.ToString();
         }
+
+        private void tbTru_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(tbSoA.Text);
+            double b = double.Parse(tbSoB.Text);
+            double c = a - b;
+            tbKQ.Text = c.ToString();
+        }
     }
 }

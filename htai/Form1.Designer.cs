@@ -35,6 +35,7 @@
             this.tbKQ = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btCong = new System.Windows.Forms.Button();
+            this.tbTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbSoA
@@ -89,17 +90,28 @@
             // 
             this.btCong.Location = new System.Drawing.Point(195, 315);
             this.btCong.Name = "btCong";
-            this.btCong.Size = new System.Drawing.Size(345, 65);
+            this.btCong.Size = new System.Drawing.Size(153, 65);
             this.btCong.TabIndex = 2;
             this.btCong.Text = "Cong";
             this.btCong.UseVisualStyleBackColor = true;
             this.btCong.Click += new System.EventHandler(this.btCong_Click);
+            // 
+            // tbTru
+            // 
+            this.tbTru.Location = new System.Drawing.Point(416, 327);
+            this.tbTru.Name = "tbTru";
+            this.tbTru.Size = new System.Drawing.Size(166, 52);
+            this.tbTru.TabIndex = 3;
+            this.tbTru.Text = "tru";
+            this.tbTru.UseVisualStyleBackColor = true;
+            this.tbTru.Click += new System.EventHandler(this.tbTru_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 622);
+            this.Controls.Add(this.tbTru);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -125,6 +137,7 @@
         private System.Windows.Forms.TextBox tbKQ;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btCong;
+        private System.Windows.Forms.Button tbTru;
     }
 }
 
