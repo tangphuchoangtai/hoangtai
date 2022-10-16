@@ -1,1 +1,10 @@
 D:\htai\htai\bin\Debug\htai.exe.config
+D:\KTPM\hoangtai\htai\bin\Debug\htai.exe.config
+D:\KTPM\hoangtai\htai\bin\Debug\htai.exe
+D:\KTPM\hoangtai\htai\bin\Debug\htai.pdb
+D:\KTPM\hoangtai\htai\obj\Debug\htai.csprojResolveAssemblyReference.cache
+D:\KTPM\hoangtai\htai\obj\Debug\htai.Form1.resources
+D:\KTPM\hoangtai\htai\obj\Debug\htai.Properties.Resources.resources
+D:\KTPM\hoangtai\htai\obj\Debug\htai.csproj.GenerateResource.Cache
+D:\KTPM\hoangtai\htai\obj\Debug\htai.exe
+D:\KTPM\hoangtai\htai\obj\Debug\htai.pdb

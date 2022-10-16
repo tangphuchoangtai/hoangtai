@@ -16,5 +16,13 @@ namespace htai
         {
             InitializeComponent();
         }
+
+        private void btCong_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(tbSoA.Text);
+            double b = double.Parse(tbSoB.Text);
+            double c = a + b;
+            tbKQ.Text = c.ToString();
+        }
     }
 }
