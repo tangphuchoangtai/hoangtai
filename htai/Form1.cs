@@ -19,25 +19,34 @@ namespace htai
 
         private void btCong_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            if (tbSoA.Text != String.Empty)
-=======
-            if (tbSoA.Text != String.Empty && tbSoB.Text != String.Empty)
->>>>>>> feature-cal
-            {
-                double a = double.Parse(tbSoA.Text);
-                double b = double.Parse(tbSoB.Text);
-                double c = a + b;
-                tbKQ.Text = c.ToString(); 
-            }
+            int a = int.Parse(tbSoA.Text);
+            int b = int.Parse(tbSoB.Text);
+            Calculation cal = new Calculation(a, b);
+            tbKQ.Text = cal.Execute("+").ToString();
         }
 
         private void tbTru_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(tbSoA.Text);
-            double b = double.Parse(tbSoB.Text);
-            double c = a - b;
-            tbKQ.Text = c.ToString();
+            int a = int.Parse(tbSoA.Text);
+            int b = int.Parse(tbSoB.Text);
+            Calculation cal = new Calculation(a, b);
+            tbKQ.Text = cal.Execute("-").ToString();
+        }
+
+        private void btNhan_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(tbSoA.Text);
+            int b = int.Parse(tbSoB.Text);
+            Calculation cal = new Calculation(a, b);
+            tbKQ.Text = cal.Execute("*").ToString();
+        }
+
+        private void btChia_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(tbSoA.Text);
+            int b = int.Parse(tbSoB.Text);
+            Calculation cal = new Calculation(a, b);
+            tbKQ.Text = cal.Execute("/").ToString();
         }
     }
 }
