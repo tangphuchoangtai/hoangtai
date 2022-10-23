@@ -8,3 +8,6 @@ D:\KTPM\hoangtai\htai\obj\Debug\htai.Properties.Resources.resources
 D:\KTPM\hoangtai\htai\obj\Debug\htai.csproj.GenerateResource.Cache
 D:\KTPM\hoangtai\htai\obj\Debug\htai.exe
 D:\KTPM\hoangtai\htai\obj\Debug\htai.pdb
+D:\KTMT-THB2\hoangtai\htai\bin\Debug\htai.exe.config
+D:\KTMT-THB2\hoangtai\htai\obj\Debug\htai.exe
+D:\KTMT-THB2\hoangtai\htai\obj\Debug\htai.pdb
