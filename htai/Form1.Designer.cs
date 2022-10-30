@@ -38,8 +38,9 @@
             this.tbTru = new System.Windows.Forms.Button();
             this.lb = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btNhan = new System.Windows.Forms.Button();
             this.btChia = new System.Windows.Forms.Button();
+            this.btNhan = new System.Windows.Forms.Button();
+            this.btSoSanh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,6 +124,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btSoSanh);
             this.groupBox1.Controls.Add(this.btChia);
             this.groupBox1.Controls.Add(this.btNhan);
             this.groupBox1.Controls.Add(this.tbTru);
@@ -135,10 +137,20 @@
             this.groupBox1.Controls.Add(this.tbSoB);
             this.groupBox1.Location = new System.Drawing.Point(95, 142);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(634, 332);
+            this.groupBox1.Size = new System.Drawing.Size(692, 332);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tính Toán Đơn Giản";
+            // 
+            // btChia
+            // 
+            this.btChia.Location = new System.Drawing.Point(490, 250);
+            this.btChia.Name = "btChia";
+            this.btChia.Size = new System.Drawing.Size(138, 50);
+            this.btChia.TabIndex = 3;
+            this.btChia.Text = "Chia";
+            this.btChia.UseVisualStyleBackColor = true;
+            this.btChia.Click += new System.EventHandler(this.btChia_Click);
             // 
             // btNhan
             // 
@@ -150,15 +162,15 @@
             this.btNhan.UseVisualStyleBackColor = true;
             this.btNhan.Click += new System.EventHandler(this.btNhan_Click);
             // 
-            // btChia
+            // btSoSanh
             // 
-            this.btChia.Location = new System.Drawing.Point(490, 250);
-            this.btChia.Name = "btChia";
-            this.btChia.Size = new System.Drawing.Size(138, 50);
-            this.btChia.TabIndex = 3;
-            this.btChia.Text = "Chia";
-            this.btChia.UseVisualStyleBackColor = true;
-            this.btChia.Click += new System.EventHandler(this.btChia_Click);
+            this.btSoSanh.Location = new System.Drawing.Point(535, 98);
+            this.btSoSanh.Name = "btSoSanh";
+            this.btSoSanh.Size = new System.Drawing.Size(138, 50);
+            this.btSoSanh.TabIndex = 3;
+            this.btSoSanh.Text = "So Sanh";
+            this.btSoSanh.UseVisualStyleBackColor = true;
+            this.btSoSanh.Click += new System.EventHandler(this.btSoSanh_Click);
             // 
             // Form1
             // 
@@ -192,6 +204,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btChia;
         private System.Windows.Forms.Button btNhan;
+        private System.Windows.Forms.Button btSoSanh;
     }
 }
 

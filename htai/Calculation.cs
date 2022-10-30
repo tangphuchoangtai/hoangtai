@@ -35,5 +35,25 @@ namespace htai
             }
             return result;
         }
+        public int SoSanh (int a ,int b)
+        {
+            int r = 0;
+            if (a > b)
+            {
+                r = 1;
+            }
+            else
+            {
+                if (a < b)
+                {
+                    r = 2;
+                }
+                else
+                {
+                    r = 0;
+                }
+            }
+            return r;
+        }
     }
 }

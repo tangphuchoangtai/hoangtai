@@ -6,3 +6,12 @@ D:\KTMT-THB2\hoangtai\CalculatorTester\bin\Debug\htai.pdb
 D:\KTMT-THB2\hoangtai\CalculatorTester\obj\Debug\CalculatorTester.csprojResolveAssemblyReference.cache
 D:\KTMT-THB2\hoangtai\CalculatorTester\obj\Debug\CalculatorTester.dll
 D:\KTMT-THB2\hoangtai\CalculatorTester\obj\Debug\CalculatorTester.pdb
+D:\thb3\hoangtai\CalculatorTester\bin\Debug\CalculatorTester.dll
+D:\thb3\hoangtai\CalculatorTester\bin\Debug\CalculatorTester.pdb
+D:\thb3\hoangtai\CalculatorTester\bin\Debug\htai.exe
+D:\thb3\hoangtai\CalculatorTester\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\thb3\hoangtai\CalculatorTester\bin\Debug\htai.pdb
+D:\thb3\hoangtai\CalculatorTester\obj\Debug\CalculatorTester.csprojResolveAssemblyReference.cache
+D:\thb3\hoangtai\CalculatorTester\obj\Debug\CalculatorTester.dll
+D:\thb3\hoangtai\CalculatorTester\obj\Debug\CalculatorTester.pdb
+D:\thb3\hoangtai\CalculatorTester\bin\Debug\Data\TextData.csv

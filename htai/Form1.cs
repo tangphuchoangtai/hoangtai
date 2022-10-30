@@ -48,5 +48,13 @@ namespace htai
             Calculation cal = new Calculation(a, b);
             tbKQ.Text = cal.Execute("/").ToString();
         }
+
+        private void btSoSanh_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(tbSoA.Text);
+            int b = int.Parse(tbSoB.Text);
+            Calculation cal = new Calculation(a, b);
+            tbKQ.Text = cal.SoSanh(a, b).ToString();
+        }
     }
 }

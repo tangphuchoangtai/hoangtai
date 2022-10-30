@@ -17,3 +17,12 @@ D:\KTMT-THB2\hoangtai\htai\obj\Debug\htai.Properties.Resources.resources
 D:\KTMT-THB2\hoangtai\htai\obj\Debug\htai.csproj.GenerateResource.Cache
 D:\KTMT-THB2\hoangtai\htai\bin\Debug\htai.exe
 D:\KTMT-THB2\hoangtai\htai\bin\Debug\htai.pdb
+D:\thb3\hoangtai\htai\bin\Debug\htai.exe.config
+D:\thb3\hoangtai\htai\obj\Debug\htai.exe
+D:\thb3\hoangtai\htai\obj\Debug\htai.pdb
+D:\thb3\hoangtai\htai\bin\Debug\htai.exe
+D:\thb3\hoangtai\htai\bin\Debug\htai.pdb
+D:\thb3\hoangtai\htai\obj\Debug\htai.csprojResolveAssemblyReference.cache
+D:\thb3\hoangtai\htai\obj\Debug\htai.Form1.resources
+D:\thb3\hoangtai\htai\obj\Debug\htai.Properties.Resources.resources
+D:\thb3\hoangtai\htai\obj\Debug\htai.csproj.GenerateResource.Cache
